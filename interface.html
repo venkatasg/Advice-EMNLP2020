@@ -1,0 +1,185 @@
+<HTMLQuestion xmlns="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2011-11-11/HTMLQuestion.xsd">
+<HTMLContent>
+<!--    <![CDATA[-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title><center>Advice Annotation</center></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><script type="text/javascript" src="https://s3.amazonaws.com/mturk-public/externalHIT_v1.js"></script>
+	<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<style>
+		.section {
+			background-color: #e6e6ff;
+			color: black;
+			margin: 12px;
+			padding: 40px;
+			width: 1000px
+		}
+		.link_section {
+			background-color: #ffffcc;
+			color: black;
+			margin: 12px;
+			padding: 40px;
+			width: 1000px
+		}
+		.context_section {
+			background-color: #e5ecff;
+			color: black;
+			margin: 12px;
+			padding: 40px;
+			width: 1000px
+		}
+		.par {
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 20px;
+		}
+		.subtext {
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 18px;
+
+		}
+		.final_instructions {
+			font-family: Arial, Helvetica, sans-serif;
+			color: #0E1DAC;
+		}
+		.example {
+            color: #556b2f;
+        }
+        .counter_example {
+            color: #6B2F37;
+        }
+	</style>
+</head>
+<body>
+	<form name="mturk_form" method="post" id="mturk_form"
+	action="https://www.mturk.com/mturk/externalSubmit"><input type="hidden" value="" name="assignmentId" id="assignmentId"/>
+	<div class="section">
+		<h3 style="font-family:Arial, Helvetica, sans-serif;font-size:24px"><center>Instructions</center></h3>
+		<p class="par">
+            As we navigate through life, we encounter many challenges and questions (e.g., about education, career,
+            relationships, parenting, life decisions, etc). Online forums have become good places for us to look for advice.
+            However, navigating through many posts is a daunting task, and our goal is to help people find the advice that
+            they actually need. And we need your help!
+        </p>
+        <p class="par">
+            In this hit, we ask you to:
+        </p>
+		<ol class="subtext" style="list-style-type:decimal;">
+			<li>read a post asking for advice,</li>
+            <li>go to the link provided below and head to our highlighting interface to read the replies to this post,</li>
+            <li>
+                as you read through the replies, <strong>highlight text spans that give advice</strong>.
+                This could be part of a sentence, a single sentence, or multiple sentences.
+            </li>
+		</ol>
+		<p class="par">
+            Specifically, an advice is text that the answerer intends the original poster to perceive as
+            <strong> a directive to do something that addresses the poster’s question (to their benefit). </strong>
+            Mark <u>the longest contiguous text</u> for each piece of advice. It may be helpful to read the entire text once and only
+            after that mark the text snippets describing advice.
+        </p>
+        <p class="par">
+            Advice can come in a variety of forms, for example:
+        </p>
+		<ul class="subtext" style="list-style-type:disc;">
+			<li>Direct advice:</li>
+            <ul class="subtext" style="list-style-type:circle">
+                <li>
+                    Using words such as
+                    "<span class="example">suggest</span>",
+                    "<span class="example">advise</span>",
+                    “<span class="example">recommend</span>”
+                </li>
+                <li>
+                    Using verbs such as
+                    “<span class="example">can</span>”,
+                    “<span class="example">could</span>”,
+                    “<span class="example">should</span>”,
+                    “<span class="example">may</span>”,
+                    “<span class="example">might</span>”,
+                    “<span class="example">need</span>”, e.g.,
+                    "<i><span class="example">you should...</span></i>",
+                    "<i><span class="example">you need to...</span></i>"
+                </li>
+                <li>
+                    Using imperatives, such as
+                    "<i><span class="example">Put baking soda and vinegar down the drain</span></i>", or
+                    "<i><span class="example">Don’t get worked up because of the tantrum</span></i>"
+                </li>
+                <li>
+                    Using questions, such as
+                    "<i><span class="example">why don’t you…</span>s</i>",
+                    "<i><span class="example">how about…</span></i>",
+                    "<i><span class="example">have you thought about…</span></i>"
+                </li>
+                <li>
+                    Expressing conditions, for example,
+                    "<i><span class="example">If I were you, I would…</span></i>"
+                </li>
+            </ul>
+            <li>Indirect advice:</li>
+            <ul class="subtext" style="list-style-type:circle">
+                <li>
+                    Sentences like
+                    "<i><span class="example">One thing you could do is…</span></i>",
+                    "<i><span class="example">It won’t hurt to…</span></i>"</li>
+                <li>Hints from personal experiences with the intention for the original poster to do the same thing, for example,</li>
+                <ul class="subtext" style="list-style-type:square">
+                    <li><i>Q: I am having heart palpitations. What should I do?</i></li>
+                    <li><i>A: <span class="example">“I also had palpitations. I stumbled upon fish oil that my dad was taking for his heart, and it cleared them out.”</span></i></li>
+                </ul>
+                <li>Statements that imply an action should (or should not) be taken; below, the answer is clearly directing the original poster not to talk about an issue:</li>
+                <ul class="subtext" style="list-style-type:square">
+                    <li><i>Q: Do you parents have any advice on how I should handle this going forward?</i></li>
+                    <li><i>A: <span class="example">“Talking about it likely was making them more stressed out”</span></i></li>
+                </ul>
+            </ul>
+		</ul>
+        <p class="par">
+            A good rule of thumb is to see whether the text instructs the original poster to <b>do something that would
+            solve the question</b>. Here are some examples that should <u>NOT</u> be considered an advice:
+        </p>
+        <ul class="subtext" style="list-style-type:disc">
+            <li>
+                Expressing sentiment, e.g.,
+                “<i><span class="counter_example">Parenthood: you will never love and hate something so much.</span></i>”,
+                “<i><span class="counter_example">It sounds to me that his family is uneducated in health</span></i>”.
+            </li>
+            <li>
+                Expressing support, e.g.,
+                "<i><span class="counter_example">You are enough.</span></i>",
+                "<i><span class="counter_example">It’s totally understandable.</span></i>"
+            </li>
+            <li>
+                Generic argumentation, e.g.,
+                "<i><span class="counter_example">Everyone is responsible for their own deeds.</span></i>"
+            </li>
+            <li>
+                Information-seeking questions, e.g.,
+                "<i><span class="counter_example">How old is your daughter?</span></i>"
+            </li>
+        </ul>
+        <p class="par">The highlighting interface looks like below:</p>
+        <img src="/static/img/fig1.png">
+        <p class="par">Each reply is marked by a <strong>reply ID</strong>; sub-replies are also marked with the symbols “<strong>>>>></strong>”.</p>
+        <img src="/static/img/fig2.png">
+        <p class="par">Figure 1: Markup dialog window. A "delete" button will appear for a span already marked.</p>
+        <p class="par">
+            To mark a portion of the text, highlight the text. A menu will appear. At the top, in the "Text" field
+            you will see the selected text. The "Entity type" section has the "Advice" tag selected by default.
+            Select "OK" at the bottom right to finalize the mark-up.
+        </p>
+        <p class="par">
+            If you wish to delete a mark-up section, double click on the existing label, then select "Delete" at
+            the bottom right. If you would like to <i>edit</i> an existing highlight, please first <i>delete</i> the original
+            highlight.
+        </p>
+        <p class="par">A complete annotated thread looks like below:</p>
+        <img src="/static/img/annotation.png" style="width: auto;height: auto">
+	</div>
+</body>
+</html>
+<!--]]>-->
+</HTMLContent>
+<!--<FrameHeight>600</FrameHeight>-->
+</HTMLQuestion>
