@@ -19,7 +19,7 @@ We present a dataset in English from two Reddit advice forums &mdash; r/AskParen
 
 ## Dataset
 
-The dataset is released in the same format as was used in the modelling experiments in the paper. They can be found in the `Dataset/` folder with a separate `train`, `dev` and `test` file for each of the two subreddits we analysed in the paper. The dataset *sentence** metrics are as follows:
+The dataset is released in the same format as was used in the modelling experiments in the paper. They can be found in the `Dataset/` folder with a separate `train`, `dev` and `test` file for each of the two subreddits we analysed in the paper. The dataset *sentence* metrics are as follows:
 
 | Subreddit      |  Train | Valid |  Test |
 |----------------|:------:|:-----:|:-----:|
