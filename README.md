@@ -1,3 +1,5 @@
+# Help! Need Advice on Identifying Advice
+
 This repository contains code and datasets from the paper 'Help! Need advice on identifying Advice' to be presented at EMNLP 2020. If you found this paper useful, please consider citing our paper:
 
 ```
@@ -15,8 +17,18 @@ Humans use language to accomplish a wide variety of tasks &mdash; asking for and
 
 We present a dataset in English from two Reddit advice forums &mdash; r/AskParents and r/needadvice &mdash; annotated for whether sentences in posts contain advice or not. Our analysis reveals rich linguistic phenomena in advice discourse. We present  preliminary models showing that while pre-trained language models are able to capture advice better than rule-based systems, advice identification is challenging, and we identify directions for future research.
 
+## Dataset
 
-## Recreating Python Environment
+The dataset is released in the same format as was used in the modelling experiments in the paper. They can be found in the `Dataset/` folder with a separate `train`, `dev` and `test` file for each of the two subreddits we analysed in the paper. The dataset *sentence** metrics are as follows:
+
+| Subreddit      |  Train | Valid |  Test |
+|----------------|:------:|:-----:|:-----:|
+| r/AskParents   |  8,701 |  802  | 1,091 |
+| r/needadvice   |  6,148 |  816  |  898  |
+
+
+## Reproducing Experiment Results
+### Recreating Python Environment
 
 The experiments were carried out on a Linux machine with 4 GTX1080 graphics cards. We used [miniconda][conda] 4.8.2 to create a virtual python environment to perform all the modelling experiments. To recreate the same virtual environment, run:
 
@@ -26,7 +38,7 @@ conda env create --file environment.yml -n ENVIRONMENT_NAME
 
 using the `environment.yml` file above. Note that the build environment is specifically for Linux. `environment_nobuild.py` is a platform agnostic build file, but some packages (like `cudatoolkit`) are not available on macOS.
 
-## Reproducing Results
+### Reproducing Results
 
 The python script `Advice_Classification_Simple.py` was used to produce the results in the paper. The bash script `train.sh` should train all model permutations used in various experiments. `test.sh` should reproduce the results of Table 6 in the paper.
 
