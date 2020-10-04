@@ -1,4 +1,20 @@
-This repository contains code and datasets from the paper ['Help! Need advice on identifying Advice'][paper] to be presented at EMNLP 2020.
+This repository contains code and datasets from the paper 'Help! Need advice on identifying Advice' to be presented at EMNLP 2020. If you found this paper useful, please consider citing our paper:
+
+```
+@inproceedings{venkat-etal-advice2020,
+  author    = {Govindarajan, Venkata S  and Chen, Benjamin T and Warholic, Rebecca and  Li, Junyi Jessy  and  Erk, Katrin},
+  title     = {Help! {N}eed {A}dvice on {I}dentifying {A}dvice},
+  booktitle      = {Proceedings of The 2020 Conference on Empirical Methods in Natural Language Processing},
+  year           = {2020},
+}
+```
+
+## Abstract
+
+Humans use language to accomplish a wide variety of tasks &mdash; asking for and giving advice being one of them. In online  advice  forums, advice is mixed in with non-advice, like emotional support, and is sometimes stated explicitly, sometimes implicitly. Understanding the language of advice would equip systems with a better grasp of language pragmatics; practically, the ability to identify advice would drastically increase the efficiency of advice-seeking online, as well as advice-giving in natural language generation systems.
+
+We present a dataset in English from two Reddit advice forums &mdash; r/AskParents and r/needadvice &mdash; annotated for whether sentences in posts contain advice or not. Our analysis reveals rich linguistic phenomena in advice discourse. We present  preliminary models showing that while pre-trained language models are able to capture advice better than rule-based systems, advice identification is challenging, and we identify directions for future research.
+
 
 ## Recreating Python Environment
 
@@ -44,6 +60,6 @@ python Advice_Classification_Simple.py --test --data DATASET--model MODEL --mult
 <!-- Links -->
 
 [conda]: https://docs.conda.io/en/latest/miniconda.html
-[paper]: https://online.html
+<!-- [paper]: https://online.html -->
 [savep]: https://huggingface.co/transformers/main_classes/model.html#transformers.PreTrainedModel.save_pretrained
 [transf]: https://huggingface.co/transformers/index.html
