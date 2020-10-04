@@ -1,2 +1,4 @@
 /Notebooks/bertviz
 .ipynb_checkpoints
+.Rhistory
+/Notebooks/__init__.py
