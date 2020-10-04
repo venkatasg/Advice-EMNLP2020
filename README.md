@@ -39,7 +39,7 @@ To predict results on a test set, use the following command:
 python Advice_Classification_Simple.py --test --data DATASET--model MODEL --multigpu --seed SEED --savedmodel PATH_TO_SAVED_MODEL_DIR/
 ```
 
-We have provided two saved models &mdash; one for each dataset. Note that models are saved using the [`saved_pretrained`][savep] method from [Transformers][transf].
+<!-- We have provided two saved models &mdash; one for each dataset. Note that models are saved using the [`saved_pretrained`][savep] method from [Transformers][transf]. -->
 
 <!-- Links -->
 
