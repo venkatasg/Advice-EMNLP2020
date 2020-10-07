@@ -1,6 +1,6 @@
 # Help! Need Advice on Identifying Advice
 
-This repository contains code and datasets from the paper 'Help! Need advice on identifying Advice' to be presented at EMNLP 2020. If you found this paper useful, please consider citing our paper:
+This repository contains code and datasets from the paper ['Help! Need advice on identifying Advice'][arxiv] to be presented at EMNLP 2020. If you found this paper useful, please consider citing our paper:
 
 ```
 @inproceedings{venkat-etal-advice2020,
@@ -71,6 +71,7 @@ python Advice_Classification_Simple.py --test --data DATASET--model MODEL --mult
 
 <!-- Links -->
 
+[arxiv]: https://arxiv.org/abs/2010.02494
 [conda]: https://docs.conda.io/en/latest/miniconda.html
 <!-- [paper]: https://online.html -->
 [savep]: https://huggingface.co/transformers/main_classes/model.html#transformers.PreTrainedModel.save_pretrained
