@@ -31,7 +31,7 @@ to be filled? Please provide a description.
 3. **What support was needed to make this dataset?**
 
     The costs for annotation were supported by research grants to Prof.
-    Jessy Li and Prof. Katrin Erk.
+    Jessy Li.
 
 <!--
 4. **Any other comments?**
@@ -126,9 +126,9 @@ other jurisdictions.*
 12. **Does the dataset contain data that, if viewed directly, might be offensive,
     insulting, threatening, or might otherwise cause anxiety?**
 
-	Yes, our dataset was constructed to investigate the different strategies
-	people use to ask for and give advice online. People dp ask for advice on
-	sensitive topics online, and our dataset relects this. It contains replies to
+	Yes. Our dataset was constructed to investigate the different strategies
+	people use to ask for and give advice online. People ask for advice on
+	sensitive topics online, and our dataset reflects this. It contains replies to
 	posts seeking advice on various topics including parenting, pregnancy,
 	relationships, mental health, and more.
 
@@ -145,7 +145,7 @@ other jurisdictions.*
     the dataset?**
 
 	No. One can only infer that two sentences are from the same person if they
-	share a *postID* and *reply number*. However, one can't identify
+	share a *postID* and *reply number*.
 
 16. **Does the dataset contain data that might be considered sensitive in any
     way (e.g. data that reveals racial or ethnic origins, sexual orientations,
@@ -179,7 +179,7 @@ part-of-speech tags, model-based guesses for age or language)? If data was
 reported by subjects or indirectly inferred/derived from other data, was the
 data validated/verified? If so, please describe how.
 
-    After the raw data was scraped from Reddit (using ???), we collected
+    After the raw data was scraped from Reddit, we collected
     annotations on what spans of text within a reply to an advice-seeking post
     were advice or not using Amazon Mechanical Turk.
 
@@ -269,8 +269,8 @@ data validated/verified? If so, please describe how.
     bucketing, tokenization, part-of-speech tagging, SIFT feature extraction,
     removal of instances, processing of missing values)?**
 
-	Yes &mdash; all preprocessing steps are explained in Section 3.2 of our
-	paper.
+	Yes &mdash; all preprocessing steps are explained in Section 3.2 of [our
+	paper](https://arxiv.org/abs/2010.02494).
 
 2. **Was the "raw" data saved in addition to the preprocessed/cleaned/labeled
     data (e.g. to support unanticipated future uses)?**
@@ -293,7 +293,7 @@ to make informed decisions, thereby avoiding potential risks or harms.*
 
 1. **Has the dataset been used for any tasks already?**
 
-	Yes, it has been used for preliminary modeling experiments in [our paper]()
+	Yes, it has been used for preliminary modeling experiments in [our paper](https://arxiv.org/abs/2010.02494)
 
 2. **Is there a repository that links to any or all papers or systems that use
     the dataset?**
@@ -307,12 +307,7 @@ to make informed decisions, thereby avoiding potential risks or harms.*
 4. **Is there anything about the composition of the dataset or the way it was
     collected and preprocessed/cleaned/labeled that might impact future uses?**
 
-	r/AskParents is a community centered around asking for advice related to
-	parenting issues. While there isn't any personally identifying information
-	in our dataset, dataset users need to keep in mind that the majority of
-	text from the subreddit is more likely to be from women, since women bear the
-	brunt of parenting responsibilities in society.
-
+	N/A.
 5. **Are there tasks for which the dataset should not be used?**
 
 	N/A.
@@ -331,11 +326,11 @@ to make informed decisions, thereby avoiding potential risks or harms.*
 2. **How will the dataset will be distributed (e.g. tarball on website, API,
     GitHub)?**
 
-	The dataset is available on this GitHub repo.
+	The dataset is available on [GitHub](https://github.com/venkatasg/Advice-EMNLP2020/tree/main/Dataset).
 
 3. **When will the dataset be distributed?**
 
-	Soon.
+	It is available now.
 
 4. **Will the dataset be distributed under a copyright or other intellectual
     property (IP) license, and/or under applicable terms of use (ToU)?**
