@@ -252,7 +252,7 @@ data validated/verified? If so, please describe how.
 
 	N/A. However, if anyone feels that they would prefer that their content
 	from Reddit not be made publicly available on our repository, please do
-	[email us](mailto: gvenkata1994@gmail.com), and we will remove your data
+	[email us](mailto:gvenkata1994@gmail.com), and we will remove your data
 	from our dataset.
 
 13. **Has an analysis of the potential impact of the dataset and its use on data
@@ -360,7 +360,7 @@ to make informed decisions, thereby avoiding potential risks or harms.*
 2. **How can the owner/curator/manager of the dataset be contacted (e.g. email address)?**
 
 	The primary author can be contacted over email &mdash;
-	[gvenkata1994@gmail.com](mailto: gvenkata1994@gmail.com)
+	[gvenkata1994@gmail.com](mailto:gvenkata1994@gmail.com)
 
 3. **Is there an erratum?** If so, please provide a link or other access point.
 
@@ -391,4 +391,4 @@ to make informed decisions, thereby avoiding potential risks or harms.*
 8. **Any other comments?**
 
 	If you have any questions or concerns with the dataset, please don't
-	hesitate to [email](mailto: gvenkata1994@gmail.com) me.
+	hesitate to [email](mailto:gvenkata1994@gmail.com) me.
